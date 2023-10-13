@@ -10,9 +10,15 @@ print("	")
 print("E. End")
 print("")
 
+<<<<<<< HEAD
 option = input("Please, insert a valid option (1-4 or E): ")
 
 if option == "1":
+=======
+option = int(input("Please, insert a valid option (1-4 or E): "))
+
+if option == 1:
+>>>>>>> 3c4a9fa7812899939e54e28df38e3fc29944a54a
     print("***************************************************************")
     print("*                    Customer Management                      *")
     print("***************************************************************")
@@ -20,9 +26,15 @@ if option == "1":
     print("2. Print Customers")
     print("3. Search Customer by ID")
     print("E. End")
+<<<<<<< HEAD
     option = input("Please, insert a valid option (1-3 or E): ")
 
     if option == "1":
+=======
+    option = int(input("Please, insert a valid option (1-3 or E): "))
+
+    if option == 1:
+>>>>>>> 3c4a9fa7812899939e54e28df38e3fc29944a54a
         print("You have selected option 1")
         pos = 0
         a = str('')
@@ -53,16 +65,28 @@ if option == "1":
         print("Town:     ", e)
         print("Phone:    ", h)
 
+<<<<<<< HEAD
     elif option == "2":
         print("You have selected option 2")
     elif option == "3":
         print("You have selected option 3")
     elif option == "0":
+=======
+    elif option == 2:
+        print("You have selected option 2")
+    elif option == 3:
+        print("You have selected option 3")
+    elif option == 0:
+>>>>>>> 3c4a9fa7812899939e54e28df38e3fc29944a54a
         print("You have selected to exit from the customer management menu")
     else:
         print("Error: invalid option in customer management menu ")
 
+<<<<<<< HEAD
 elif option == "2":
+=======
+elif option == 2:
+>>>>>>> 3c4a9fa7812899939e54e28df38e3fc29944a54a
     print("***************************************************************")
     print("*                  Sensors Management Menu                    *")
     print("***************************************************************")
@@ -70,6 +94,7 @@ elif option == "2":
     print("2. Print Sensors")
     print("3. Search Sensors by ID")
     print("E. End")
+<<<<<<< HEAD
     option = input("Please, insert a valid option (1-3 or E): ")
 
     if option == "1":
@@ -79,11 +104,26 @@ elif option == "2":
     elif option == "3":
         print("You have selected option 3")
     elif option == "0":
+=======
+    option = int(input("Please, insert a valid option (1-3 or E): "))
+
+    if option == 1:
+        print("You have selected option 1")
+    elif option == 2:
+        print("You have selected option 2")
+    elif option == 3:
+        print("You have selected option 3")
+    elif option == 0:
+>>>>>>> 3c4a9fa7812899939e54e28df38e3fc29944a54a
         print("You have selected to exit from the sensor management menu")
     else:
         print("Error: invalid option in sensor management menu ")
 
+<<<<<<< HEAD
 elif option == "3":
+=======
+elif option == 3:
+>>>>>>> 3c4a9fa7812899939e54e28df38e3fc29944a54a
     print("***************************************************************")
     print("*              Securiry Systems Management Menu               *")
     print("***************************************************************")
@@ -92,7 +132,11 @@ elif option == "3":
     print("3. Search System by ID")
     print("E. End")
     option = input("Please, insert a valid option (1-3 or E): ")
+<<<<<<< HEAD
 elif option == "4":
+=======
+elif option == 4:
+>>>>>>> 3c4a9fa7812899939e54e28df38e3fc29944a54a
     print("***************************************************************")
     print("*                   Sales Management Menu                     *")
     print("***************************************************************")
@@ -101,7 +145,11 @@ elif option == "4":
     print("3. Search Sale by ID")
     print("E. End")
     option = input("Please, insert a valid option (1-3 or E): ")
+<<<<<<< HEAD
 elif option == "E" or option == "e":
+=======
+elif option == 0:
+>>>>>>> 3c4a9fa7812899939e54e28df38e3fc29944a54a
     print("You have selected to exit from the main menu")
 else:
     print("Error: invalid option in main menu ")
